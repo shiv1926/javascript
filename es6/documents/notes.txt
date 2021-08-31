@@ -1,0 +1,21 @@
+operator and operands
+Infinity, Nan, all reserved keyword like this.
+anonymous function
+event loop, async and await, closure, and prototype, hoisting variable and functions, 	fetch api	
+
+https://www.youtube.com/watch?v=VaBP6_pBOgM&list=PLwGdqUZWnOp0hSGwasCjbrWSPrEKqB_kz&index=2&t=0s
+
+object oriented programming 
+basic features of oop
+difference between class properties and class methods : 
+inheritence, polymorphism, encapsulation, abstraction, interfaces, 
+
+in javascript everything is an object, and each object have their own properties and functionaliy,
+an object is a instance of a class. we can create as many as objects of a class and all objects share all the properties and methods,
+
+
+===============================================================================
+
+
+we should not use any variable without declaring it. because of "Use Strict" mode on.
+function hoisting and variable hoisting
