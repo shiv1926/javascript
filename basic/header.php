@@ -1,7 +1,11 @@
 <?php 
 function jsbasic($param='')
 {
-    return 'http://localhost/javascripts/basic/'.$param;
+    if($_SERVER['HTTP_HOST']=='shiv-pc') {
+        return 'http://shiv-pc/all_tutorials/javascript/basic/'.$file;
+    } else {
+        return 'http://localhost/javascript/basic/'.$file;
+    }
 }
 ?>
 <!DOCTYPE html>

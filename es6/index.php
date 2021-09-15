@@ -6,9 +6,8 @@
 	<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
 	<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Fat Arrow Functions and their benefits</a></li>
 	<li><a href="<?php echo es_url('template-literals.php'); ?>">Template Literals</a></li>
-
 	<li>
-		<strong>Sync and Async Programming</strong>
+		<h4>Sync and Async Programming</h4>
 		<ul>
 			<li><a href="<?php echo es_url('synchronous-and-asynchronous-programming.php'); ?>">Synchronous and Asynchronous programming</a></li>
 			<li><a href="<?php echo es_url('callback.php'); ?>">Callback</a></li>
@@ -20,10 +19,10 @@
 		</ul>
 	</li>
 	<li>
-		<a href="<?php echo es_url('destrutureing.php'); ?>">Destructuring</a>
+		<a href="<?php echo es_url('destruturing.php'); ?>">Destructuring</a>
 		<ul>
-			<li><a href="<?php echo es_url('array-destrutureing.php'); ?>">Array Destructuring</a></li>
-			<li><a href="<?php echo es_url('object-destrutureing.php'); ?>">Object Destructuring</a></li>
+			<li><a href="<?php echo es_url('array-destruturing.php'); ?>">Array Destructuring</a></li>
+			<li><a href="<?php echo es_url('object-destruturing.php'); ?>">Object Destructuring</a></li>
 		</ul>
 	</li>
 	<li>
@@ -33,8 +32,14 @@
 			<li><a href="<?php echo es_url('rest-operator.php'); ?>">Rest Operator</a></li>
 		</ul>
 	</li>
-	<li><a href="<?php echo es_url('promises.php'); ?>">Iterators</a></li>
-	call, apply bind method, round, filter,
+	<li>
+		<h4>HTML DOM Events</h4>
+		<ul>
+			<li>addEventListener()</li>
+		</ul>
+	</li>
+	<li><a href="<?php echo es_url('promises.php'); ?>">Iterators and loops</a></li>
+	<li>call, apply bind method, round, filter,</li>
 	<li><a href="<?php echo es_url('promises.php'); ?>">Map function</a></li>
 	<li><a href="<?php echo es_url('object-iteration.php'); ?>">Object Iterators</a></li>
 	<li><a href="<?php echo es_url('promises.php'); ?>">Promises</a></li>
@@ -48,4 +53,8 @@
 		</ul>
 	</li>
 </ul>
-<?php include('footer.php'); ?>'); ?>
+<br><br>
+<h4>Refrences</h4>
+<div>http://es6-features.org</div>
+
+<?php include('footer.php'); ?>

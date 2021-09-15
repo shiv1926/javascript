@@ -1,0 +1,8 @@
+An async function is a function declared with the async keyword. Async functions are instances of the AsyncFunction constructor, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.  async / await is used to avoid promise chain.
+
+setup the initial state of component
+
+https://daveceddia.com/visual-guide-to-state-in-react/
+
+And just to be clear, the render function is never a good place to fetch data – or to do anything that’s asynchronous, that changes state in some way, or that causes side effects. The only thing render should do is return some JSX to display, and maybe spend a few lines preparing that data to display.
+

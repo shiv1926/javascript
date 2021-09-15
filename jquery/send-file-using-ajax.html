@@ -1,0 +1,17 @@
+      $("#submitcontactus").click(function(){
+            var careerform = document.getElementById("career-form");
+            var form_data = new FormData(careerform);                  
+            $.ajax({
+                url: 'career-submit.php', // point to server-side PHP script 
+                dataType: 'json',  // what to expect back from the PHP script, if anything
+                cache: false,
+                contentType: false,
+                processData: false,
+                enctype: 'multipart/form-data',
+                data: form_data,                         
+                type: 'post',
+                success: function(response){
+                    console.log(response);
+                }
+            });
+        });

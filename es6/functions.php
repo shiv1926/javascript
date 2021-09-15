@@ -1,6 +1,10 @@
 <?php 
 function es_url($file='')
 {
-    return 'http://localhost/javascripts/es6/'.$file;
+    if($_SERVER['HTTP_HOST']=='shiv-pc') {
+        return 'http://shiv-pc/all_tutorials/javascript/es6/'.$file;
+    } else {
+        return 'http://localhost/javascript/es6/'.$file;
+    }
 }
 ?>
