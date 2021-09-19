@@ -16,6 +16,7 @@
 			<li><a href="<?php echo es_url('async-await.php'); ?>">Asyc / Await</a></li>
 			<li><a href="<?php echo es_url('fetch.php'); ?>">Fetch API</a></li>
 			<li><a href="<?php echo es_url('event-loop.php'); ?>">Event Loop</a></li>
+			<li><a href="<?php echo es_url('aysnc-defer.php'); ?>">Async Defer</a></li>
 		</ul>
 	</li>
 	<li>
