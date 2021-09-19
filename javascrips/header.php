@@ -1,5 +1,5 @@
 <?php 
-function jsbasic($param='')
+function jsbasic($file='')
 {
     if($_SERVER['HTTP_HOST']=='shiv-pc') {
         return 'http://shiv-pc/all_tutorials/javascript/basic/'.$file;
