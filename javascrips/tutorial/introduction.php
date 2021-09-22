@@ -2,3 +2,12 @@ Javascript is an event driven programming languages. Javascript code need some e
 
 
 program structure in every programming language.
+javascript is high level programming language, i.e. it is machine indepedent.
+javascript is lightweight
+javascript is interpreted programming language.
+javascript is an untyped language, i.e. their is no need to define the data type of variable.
+javascript is client side scripting language.
+javascript is case sensitive language.
+
+<strong>How javascript works</strong>
+every browser have their own javascript engine, 

@@ -1,0 +1,20 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+http://javascript.info/
+https://www.w3docs.com/learn-javascript.html
+https://www.tutorialsteacher.com/javascript/javascript-tutorials
+
+html5, css, css 3, html5 geo location : https://www.youtube.com/watch?v=BeN-EN6Mu9M&list=PLHpTOkCsd2tOxh0hbqEWiHcnVK7TYhLOD
+
+classes : https://itnext.io/javascript-fundamentals-mastering-classes-38e7668023be
+
+javascript : 
+intro, history, dom, bom, ecmascript, what is prototype, video of best javascript tutorial and object oriented skills
+
+https://www.youtube.com/watch?v=3qti7Vof_7Q&list=PLbGui_ZYuhiiaQjuOfvgx_-gzVBlCxrk0
+https://www.youtube.com/watch?v=W6NZfCO5SIk&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax
+https://www.youtube.com/watch?v=Xyx56GE_Cew&list=PLC3wpesSWe4HEqgzwI3Q7So-pu5mL5bZj
+
+What is dom : https://www.youtube.com/watch?v=ZEyUqFshPGQ
+
+Techsith : youtube videos, good for javascript, react js, not for css

@@ -3,6 +3,7 @@
 	<li><a href="<?php echo es_url('introduction.php'); ?>">Introduction</a></li>
 	<li><a href="<?php echo es_url('variable-declaration.php'); ?>">Variables and their types</a></li>
 	<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Functions and their types</a></li>
+	<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">Higher Order Functions</a></li>
 	<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
 	<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Fat Arrow Functions and their benefits</a></li>
 	<li><a href="<?php echo es_url('template-literals.php'); ?>">Template Literals</a></li>

@@ -1,0 +1,13 @@
+how javascript engine works ?
+
+variable name with var and without var
+what is the difference between toPrecision() and toFixed() and math.round;
+important chapters from w3shools : function, object, data type, array, array methods, array sort, JavaScript Type Conversion, 
+what is static typing, dynamically typed
+what is first-class programming language.
+Variable hoisting 
+radix parameter
+primitive and non-primitive values
+what is anonymous functions, function declaration types
+implicit and explicit defining
+what is host envoirment ? javascript programs run on host environment.

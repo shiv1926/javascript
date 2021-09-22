@@ -1,0 +1,32 @@
+Vanilla JavaScript or Vanilla JS means Scripts written in plain JavaScript code, and not extended by any frameworks or additional libraries. 
+
+Local variables must be declared with the var keyword, otherwise they will become global variables.
+
+All popular modern Web browsers support JavaScript with built-in interpreters. 
+
+JavaScript is case sensitive, i.e. test is not same as Test.
+In JavaScript, instructions are called statements and are separated by semicolons (;).
+Best practice reduce the chances of bug in the code : 
+always write a semicolon after a statement.
+
+Identifiers : all the variables, functions and properties name known as identifier.
+
+Don’t learn how to use frameworks. It’s a knowledge that will expire fast. you should learn how frameworks work, that is very valuable knowledge.
+
+Learn the power of CSS and how to use it to minimize your applications JavaScript code.
+
+What are Declarative and Imperative Programming?
+
+there are different ways of joining multiple words into one variable name:
+Hyphens: first-name, last-name, master-card, inter-city , Hyphens are not allowed in JavaScript. It is reserved for subtractions.
+Underscore: first_name, last_name, master_card, inter_city.
+camelCase : camel case have two types : 
+Upper Camel Case (Pascal Case): FirstName, LastName, MasterCard, InterCity. this id also known as pascal case.
+Lower Camel Case: JavaScript programmers tend to use camel case that starts with a lowercase letter: firstName, lastName, masterCard, interCity. camelCase is used by JavaScript itself, by jQuery, and other JavaScript libraries.
+
+JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.
+The following lines are equivalent:
+var person = "Hege";
+var person="Hege";
+A good practice is to put spaces around operators ( = + - * / ):
+var x = y + z;
