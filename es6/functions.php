@@ -7,4 +7,15 @@ function es_url($file='')
         return 'http://localhost/all_tutorial/javascript/es6/'.$file;
     }
 }
+
+function refrences($links)
+{
+    $return='<div>&nbsp;</div>';
+    $return.='<h4>Refrences</h4>';
+    foreach($links as $link)
+    {
+        $return.='<div>'.$link.'</div>';
+    }
+    return $return;
+}
 ?>

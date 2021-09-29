@@ -6,3 +6,12 @@ https://daveceddia.com/visual-guide-to-state-in-react/
 
 And just to be clear, the render function is never a good place to fetch data – or to do anything that’s asynchronous, that changes state in some way, or that causes side effects. The only thing render should do is return some JSX to display, and maybe spend a few lines preparing that data to display.
 
+=========
+
+template literal / concatanation
+variable and their scrop and types
+function and their types / closure function and uses of all functions
+javascript at runtime : execution context call stack, memory heaap
+rest spread opeators, 
+async and sync
+destructuring

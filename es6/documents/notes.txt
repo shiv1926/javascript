@@ -1,3 +1,5 @@
+https://www.javascripttutorial.net/ : very good tutorial
+
 operator and operands
 Infinity, Nan, all reserved keyword like this.
 anonymous function

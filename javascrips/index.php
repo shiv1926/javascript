@@ -11,6 +11,6 @@
 		</ul>
 	</li>
 
-
+<div>typeof()</div>
 </ul>
 <?php include('footer.php'); ?>
