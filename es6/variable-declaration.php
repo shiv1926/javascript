@@ -1,9 +1,8 @@
+<?php include('header.php'); ?>
 <h2>Template Literals</h2>
-
-Until ES5, the only way to declare a variable was to use the var keyword. ES6 introduced two more ways to declare variables, using the let and const keywords. Using these modern keywords gives us more predictability and fewer chances of introducing bugs in the code.
-
-The var Keyword
-A variable declared with var is function scoped. This means we will get a ReferenceError when we try to access the variable outside of the function.
+<ul>
+   <li>Until ES5, the only way to declare a variable was to use the var keyword. ES6 introduced two more ways to declare variables, using the let and const keywords. Using these modern keywords gives us more predictability and fewer chances of introducing bugs in the code.</li>
+   <li>The var Keyword : A variable declared with var is function scoped. This means we will get a ReferenceError when we try to access the variable outside of the function.</li>
 
 var x = 10;
 function someFunc(){
@@ -54,3 +53,11 @@ for (var i=0; i<5; i++) { console.log('i inside the loop: ', i);
         Don't use var anymore. Use let or const.
         Use const more often. Use let when you need to reassign another value to a variable.
         In a React app, you will see code using let and const very often. A React component is usually declared using const. Have a look at the example below.
+<?php 
+$links[] = 'http://es6-features.org';
+$links[] = 'https://www.javascripttutorial.net/es6';
+$links[] = 'https://www.geeksforgeeks.org';
+$links[] = 'https://devhints.io/es6 : Cheatsheet';
+echo refrences($links);
+include('footer.php'); 
+?>

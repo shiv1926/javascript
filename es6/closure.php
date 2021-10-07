@@ -14,4 +14,8 @@
     </li>
     <li>Closure functions</li>
 </ul>
-<?php include('footer.php'); ?>
+<?php 
+$links[] = 'https://www.javascripttutorial.net/javascript-closure/';
+echo refrences($links);
+include('footer.php'); 
+?>

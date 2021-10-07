@@ -10,8 +10,10 @@
 	<li>
 		<h4>Variables</h4>
 		<ul>
+			<li><a href="<?php echo es_url('variable-introduction.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('variable-declaration.php'); ?>">Variables and their types</a></li>
-			<li><a href="<?php echo es_url('variable-declaration.php'); ?>">Scope of Variables</a></li>
+			<li><a href="<?php echo es_url('variable-comparison.php'); ?>">Variables types comparison</a></li>
+			<li><a href="<?php echo es_url('scope-variable.php'); ?>">Scope of Variables</a></li>
 		</ul>
 	</li>
 	<li>
@@ -62,9 +64,9 @@
 	<li>
 		<h4>Modules</h4>
 		<ul>
-			<li><a href="<?php echo es_url('destruturing.php'); ?>">Introduction</a></li>
-			<li><a href="<?php echo es_url('array-destruturing.php'); ?>">Array Destructuring</a></li>
-			<li><a href="<?php echo es_url('object-destruturing.php'); ?>">Object Destructuring</a></li>
+			<li><a href="<?php echo es_url('modules.php'); ?>">Introduction</a></li>
+			<li><a href="<?php echo es_url('export-modules.php'); ?>">Export Modules</a></li>
+			<li><a href="<?php echo es_url('import-modules.php'); ?>">Import Modules</a></li>
 		</ul>
 	</li>
 	<li>
@@ -86,14 +88,13 @@
 			<li>addEventListener()</li>
 		</ul>
 	</li>
-	<li>call, apply bind method, round, filter,</li>
 	<li><a href="<?php echo es_url('object-iteration.php'); ?>">Object Iterators</a></li>
 	<li>
 		<h4>In-built Functions</h4>
 		<ul>
 			<li><a href="<?php echo es_url('in-built-functions.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">String Methods / String Functions</a></li>
-			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Array / Object Methods</a></li>
+			<li><a href="<?php echo es_url('arrsy-methods.php'); ?>">Array / Object Methods</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Number Methods</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Global Methods</a></li>
 		</ul>
@@ -103,6 +104,7 @@
 $links[] = 'http://es6-features.org';
 $links[] = 'https://www.javascripttutorial.net/es6';
 $links[] = 'https://www.geeksforgeeks.org';
+$links[] = 'https://devhints.io/es6 : Cheatsheet';
 echo refrences($links);
 include('footer.php'); 
 ?>
