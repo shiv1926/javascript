@@ -1,18 +1,6 @@
 <?php include('header.php'); ?>
 <ul>
-    <li>functions are first class citizens</li>
-    <li>in javascript we can assign a function to a variable.</li>
-    <li>any function that is passed to another function as an argument, is known as callback funtions.</li>
-    <li>Types : </li>
-    <li>Standard pattern / Classic pattern / Most common pattern</li>
-    <li>function expression
-        <ul>
-            <li>Anonymous function expression</li>
-            <li>named function expression</li>
-            <li>Self invoking function expression / immediate invoked function expression(IIFE) : <a href="iife.php">Learn More</a></li>
-        </ul>
-    </li>
-    <li>Closure functions</li>
+    <li>Inner functions : An inner function can access variables and parameters of their parent functions, as well as global variables.</li>
 </ul>
 <?php 
 $links[] = 'https://www.javascripttutorial.net/javascript-closure/';

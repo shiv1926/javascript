@@ -31,10 +31,11 @@
 	<li>
 		<h4>Functions</h4>
 		<ul>
+			<li><a href="<?php echo es_url('what-is-functional-programming.php'); ?>">What is function programming</a></li>
 			<li><a href="<?php echo es_url('what-is-function.php'); ?>">What is functions</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Functions and their types</a></li>
 			<li><a href="<?php echo es_url('default-parameters.php'); ?>">Default Parameters</a></li>
-			<li><a href="<?php echo es_url('rest-operator.php'); ?>">Higher Order Functions</a></li>
+			<li><a href="<?php echo es_url('higher-order-functions.php'); ?>">Higher Order Functions</a></li>
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Fat Arrow Functions and their benefits</a></li>
 			<li><a href="<?php echo es_url('promises.php'); ?>">Map function</a></li>
@@ -97,6 +98,12 @@
 			<li><a href="<?php echo es_url('arrsy-methods.php'); ?>">Array / Object Methods</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Number Methods</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Global Methods</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>Best Practice</h4>
+		<ul>
+			<li><a href="<?php echo es_url('best-practice.php'); ?>">Introduction</a></li>
 		</ul>
 	</li>
 </ul>
