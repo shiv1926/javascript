@@ -36,6 +36,7 @@
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Functions and their types</a></li>
 			<li><a href="<?php echo es_url('default-parameters.php'); ?>">Default Parameters</a></li>
 			<li><a href="<?php echo es_url('higher-order-functions.php'); ?>">Higher Order Functions</a></li>
+			<li><a href="<?php echo es_url('pure-functions.php'); ?>">Pure Functions</a></li>
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Fat Arrow Functions and their benefits</a></li>
 			<li><a href="<?php echo es_url('promises.php'); ?>">Map function</a></li>
@@ -98,6 +99,21 @@
 			<li><a href="<?php echo es_url('arrsy-methods.php'); ?>">Array / Object Methods</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Number Methods</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Global Methods</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>Meta-Programming</h4>
+		<ul>
+			<li><a href="<?php echo es_url('proxying.php'); ?>">Proxying</a></li>
+			<li><a href="<?php echo es_url('reflection.php'); ?>">Reflection</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>Map/Set & WeakMap/WeakSet</h4>
+		<ul>
+			<li><a href="<?php echo es_url('set-data-structure.php'); ?>">Set Data-Structure</a></li>
+			<li><a href="<?php echo es_url('map-data-structure.php'); ?>">Map Data-Structure</a></li>
+			<li><a href="<?php echo es_url('weak-link-data-structures.php'); ?>">Weak-Link Data-Structures</a></li>
 		</ul>
 	</li>
 	<li>
