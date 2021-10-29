@@ -117,6 +117,13 @@
 		</ul>
 	</li>
 	<li>
+		<h4>Javascript at runtime : revisited</h4>
+		<ul>
+			<li><a href="<?php echo es_url('hoisting.php'); ?>">Hoisting</a></li>
+			<li><a href="<?php echo es_url('promises.php'); ?>">Execution Stack and Call Stack</a></li>
+		</ul>
+	</li>
+	<li>
 		<h4>Best Practice</h4>
 		<ul>
 			<li><a href="<?php echo es_url('best-practice.php'); ?>">Introduction</a></li>
@@ -127,7 +134,6 @@
 $links[] = 'http://es6-features.org';
 $links[] = 'https://www.javascripttutorial.net/es6';
 $links[] = 'https://www.geeksforgeeks.org';
-$links[] = 'https://devhints.io/es6 : Cheatsheet';
 echo refrences($links);
 include('footer.php'); 
 ?>

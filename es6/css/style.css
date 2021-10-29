@@ -39,3 +39,5 @@ code ul li:first-child, code ul li:last-child { padding: 0 0 0 0; }
 .explanation li { padding: 0; margin: 0 0 10px 0!important; }
 
 .example { padding: 15px; background-color: #282828; color: #fff; border-radius: 4px; display: inline-flex; line-height:1; margin: 10px 0;}
+
+pre { margin: 0; padding: 0; }

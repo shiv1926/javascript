@@ -50,4 +50,6 @@ function example_formatted($ex)
     $return.="</pre>";
     return $return;
 }
+
+
 ?>

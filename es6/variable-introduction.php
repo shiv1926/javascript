@@ -11,20 +11,9 @@
         </ul>
     </li>
 </ul>
-<h4>ES6</h4>
-<ul>
-
-    <li>In ES6, we use backticks (`) to wrapping the string or text.</li>
-    <li class="example">let simple = `This is a template literal`;</li>
-    <li>ES6 provide a powerful feature i.e. placeholder</li>
-    <li class="example">${variable_name}</li>
-    <li class="example_table">
-    <?php echo example_formatted('examples/template-literals.html'); ?>
-    </li>
-</ul>
-
 <?php 
-$links[] = 'https://www.geeksforgeeks.org/javascript-template-literals/';
+$links[] = 'https://www.computerhope.com/jargon/v/variable.htm';
+$links[] = 'https://launchschool.com/books/ruby/read/variables#whatisavariable';
 echo refrences($links);
 include('footer.php'); 
 ?>
