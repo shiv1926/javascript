@@ -10,6 +10,30 @@
 			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">Cookies</a></li>
 		</ul>
 	</li>
+	<li>
+		<h4>Data Types</h4>
+		<ul>
+			<li><a href="<?php echo jsbasic('spread-operator.php'); ?>">Primitive Data Types</a></li>
+			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">Non-primitive Data Types</a></li>
+			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">User defined data types</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>Variables</h4>
+		<ul>
+			<li><a href="<?php echo jsbasic('spread-operator.php'); ?>">https://www.javascripttutorial.net/javascript-variables/</a></li>
+			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">Non-primitive Data Types</a></li>
+			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">User defined data types</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>Operators</h4>
+		<ul>
+			<li><a href="<?php echo jsbasic('spread-operator.php'); ?>">Primitive Data Types</a></li>
+			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">Non-primitive Data Types</a></li>
+			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">User defined data types</a></li>
+		</ul>
+	</li>
 
 <div>typeof()</div>
 </ul>

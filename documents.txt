@@ -8,6 +8,9 @@ And just to be clear, the render function is never a good place to fetch data – 
 
 =========
 
+javascript and seo : https://love2dev.com/blog/javascript-seo/
+graphics javascript : https://blog.logrocket.com/top-6-javascript-and-html5-game-engines/
+
 template literal / concatanation
 variable and their scrop and types
 function and their types / closure function and uses of all functions
