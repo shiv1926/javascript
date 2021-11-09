@@ -3,8 +3,8 @@
 	<li>
 		<h4>Javascript at runtime</h4>
 		<ul>
-			<li><a href="<?php echo es_url('hoisting.php'); ?>">Hoisting</a></li>
-			<li><a href="<?php echo es_url('promises.php'); ?>">Execution Stack and Call Stack</a></li>
+			<li><a href="<?php echo es_url('how-javascript-works.php'); ?>">How javascript works</a></li>
+			<li><a href="<?php echo es_url('execution-context.php'); ?>">Execution Stack and Call Stack</a></li>
 		</ul>
 	</li>
 	<li>
@@ -82,6 +82,8 @@
 		<h4>Iterators and loops</h4>
 		<ul>
 			<li>for..of</li>
+			<li><a href="<?php echo es_url('object-iteration.php'); ?>">Object Iterators</a></li>
+			<li><a href="<?php echo es_url('object-iteration.php'); ?>">Array Iterators</a></li>
 		</ul>
 	</li>
 	<li>
@@ -90,7 +92,6 @@
 			<li>addEventListener()</li>
 		</ul>
 	</li>
-	<li><a href="<?php echo es_url('object-iteration.php'); ?>">Object Iterators</a></li>
 	<li>
 		<h4>In-built Functions</h4>
 		<ul>
