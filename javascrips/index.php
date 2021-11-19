@@ -36,5 +36,7 @@
 	</li>
 
 <div>typeof()</div>
+<div>always declare variable with variable type ( var, let and const )</div>
+<div>we should clear the memory after use.</div>
 </ul>
 <?php include('footer.php'); ?>

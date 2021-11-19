@@ -167,4 +167,9 @@
     <li>This example is meant to illustrate two important concepts:</li>
     <li>The handlePhoto callback is just a way to store some things to do at a later time The order in which things happen does not read top-to-bottom, it jumps around based on when things complete</li>
 </ul>
+
+there may be two situations : 
+
+
+
 <?php include('footer.php'); ?>

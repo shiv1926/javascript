@@ -4,7 +4,8 @@
 		<h4>Javascript at runtime</h4>
 		<ul>
 			<li><a href="<?php echo es_url('how-javascript-works.php'); ?>">How javascript works</a></li>
-			<li><a href="<?php echo es_url('execution-context.php'); ?>">Execution Stack and Call Stack</a></li>
+			<li><a href="<?php echo es_url('execution-context.php'); ?>">Execution Context</a></li>
+			<li><a href="<?php echo es_url('execution-context.php'); ?>">Execution Stack / Call Stack</a></li>
 		</ul>
 	</li>
 	<li>
@@ -41,6 +42,8 @@
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Fat Arrow Functions and their benefits</a></li>
 			<li><a href="<?php echo es_url('promises.php'); ?>">Map function</a></li>
 			<li><a href="<?php echo es_url('promises.php'); ?>">Closure Functions</a></li>
+			<li><a href="<?php echo es_url('generator-functions.php'); ?>">Generators Functions</a></li>
+			<li><a href="<?php echo es_url('generator-functions.php'); ?>">Generators Functions</a></li>
 		</ul>
 	<li>
 		<h4>Synchronous and Asynchronous programming</h4>
