@@ -1,30 +1,37 @@
 <?php include('header.php'); ?>
 <ul>
-    <li>There are two ways to wrap an string i.e. single quotes ('') and double quotes ("").</li>
-    <li>We use ( + ) opeator to concat two strings.</li>
-    <li>Using both the ways, it is difficult to
-        <ul>
-            <li>escape the quotes symbol from the string. For this we use escape charector.</li>
-            <li>write the expression (functions call, variables, object, array ) in the string.</li>
-            <li>write multiline strings.</li>
-            <li>format an string, i.e. adding space between words, or adding a new line.</li>
-        </ul>
+    <li>
+        Destructuring Assignment operator is used to unpack (extract)
+        <ol>
+            <li>values from array</li>
+            <li>properties from object</li>
+        </ol>
+        into individual variables. It does not affect the original array or object.
     </li>
-</ul>
-<h4>ES6</h4>
-<ul>
-
-    <li>In ES6, we use backticks (`) to wrapping the string or text.</li>
-    <li class="example">let simple = `This is a template literal`;</li>
-    <li>ES6 provide a powerful feature i.e. placeholder</li>
-    <li class="example">${variable_name}</li>
-    <li class="example_table">
-    <?php echo example_formatted('examples/template-literals.html'); ?>
+    <li>
+        <p><strong>Destructuring Assignment Syntax</strong></p>
+        <div class="example_block">
+            Destructuring target = Destructuring source;
+        </div>
+        <div>Destructuring source: the right-hand side of a destructuring assignment, the data to be destructured.</div>
+        <div>Destructuring target: the left-hand side of a destructuring assignment, either array [var1, var2, var3] or object {var1, var2, var3}.</div>
     </li>
-</ul>
+    <li>
+        Destructuring Assignment Works with any iterable items on the right-side, not only array or object.
+        <div class="example_block">
+            <div>let [x,y,z] = "abc"; // ["a", "b", "c"]</div>
+            <div>let [one, two, three] = new Set([1, 2, 3]);</div>
+        </div>
+        <p>That works, because internally a destructuring assignment works by iterating over the right value. it is likea syntax sugar for calling for..of over the value to the right of = and assigning the values.</p>
+    </li>
+    <h4>Use Cases</h4>
+    <li>Whenever a function or an API return a list of array or json data, and we are interested in only some data we should use destructuing.</li>
+    <li>There are several situations where a function can require multiple parameters, so its look ugly to pass multiple parameter, so here we should use destructuring.</li>
 
+</ul>
 <?php 
-$links[] = 'https://www.geeksforgeeks.org/javascript-template-literals/';
+$links[] = 'https://www.javascripttutorial.net/es6/destructuring/';
+$links[] = 'https://javascript.info/destructuring-assignment';
 echo refrences($links);
 include('footer.php'); 
 ?>

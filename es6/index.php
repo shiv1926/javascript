@@ -138,6 +138,7 @@
 $links[] = 'http://es6-features.org';
 $links[] = 'https://www.javascripttutorial.net/es6';
 $links[] = 'https://www.geeksforgeeks.org';
+$links[] = 'https://javascript.info : This site has a good index of tutorial';
 echo refrences($links);
 include('footer.php'); 
 ?>
