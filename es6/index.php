@@ -75,8 +75,9 @@
 		</ul>
 	</li>
 	<li>
-		<h4>Operators</h4>
+		<h4>Three dot Operators</h4>
 		<ul>
+			<li><a href="<?php echo es_url('three-dot-operator.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('rest-operator.php'); ?>">Rest Operator</a></li>
 			<li><a href="<?php echo es_url('spread-operator.php'); ?>">Spread Operator</a></li>
 		</ul>
@@ -131,6 +132,7 @@
 		<h4>Best Practice</h4>
 		<ul>
 			<li><a href="<?php echo es_url('best-practice.php'); ?>">Introduction</a></li>
+			<li><a href="<?php echo es_url('deep-shallow-copy.php'); ?>">Deep copy vs shallow copy</a></li>
 		</ul>
 	</li>
 </ul>

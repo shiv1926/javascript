@@ -13,8 +13,8 @@
         <div class="example_block">
             Destructuring target = Destructuring source;
         </div>
-        <div>Destructuring source: the right-hand side of a destructuring assignment, the data to be destructured.</div>
-        <div>Destructuring target: the left-hand side of a destructuring assignment, either array [var1, var2, var3] or object {var1, var2, var3}.</div>
+        <div><strong>Destructuring source:</strong> the right-hand side of a destructuring assignment, the data to be destructured.</div>
+        <div><strong>Destructuring target:</strong> the left-hand side of a destructuring assignment, either array [var1, var2, var3] or object {var1, var2, var3}.</div>
     </li>
     <li>
         Destructuring Assignment Works with any iterable items on the right-side, not only array or object.
