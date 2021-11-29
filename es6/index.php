@@ -77,8 +77,8 @@
 	<li>
 		<h4>Operators</h4>
 		<ul>
-			<li><a href="<?php echo es_url('spread-operator.php'); ?>">Spread Operator</a></li>
 			<li><a href="<?php echo es_url('rest-operator.php'); ?>">Rest Operator</a></li>
+			<li><a href="<?php echo es_url('spread-operator.php'); ?>">Spread Operator</a></li>
 		</ul>
 	</li>
 	<li>
