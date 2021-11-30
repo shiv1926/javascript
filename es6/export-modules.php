@@ -47,6 +47,9 @@ module.exports = {
     area,
     perimeter
 }
-</script>    
+</script>
+
+default export and standard export
+
 </ul>
 <?php include('footer.php'); ?>
