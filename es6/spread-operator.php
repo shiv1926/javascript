@@ -5,7 +5,7 @@
 </ul>
 spread operator has replace the apply method.
 spread operator has replace the concat method, because using spread opeator we can concat mulitiple array.
-spread operator has replace the copy method.
+spread operator has replace the copy method. but it creates a shallow copy not the deep copy.
 
 <?php include('footer.php'); ?>
 
