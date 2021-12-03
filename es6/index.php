@@ -133,6 +133,8 @@
 		<ul>
 			<li><a href="<?php echo es_url('best-practice.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('deep-shallow-copy.php'); ?>">Deep copy vs shallow copy</a></li>
+			<li><a href="<?php echo es_url('deep-shallow-copy.php'); ?>">setTimeOut</a></li>
+			<li><a href="<?php echo es_url('deep-shallow-copy.php'); ?>">setInterval</a></li>
 		</ul>
 	</li>
 </ul>
