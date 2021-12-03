@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <h2>Variable Declaration</h2>
 <ul>
-<li>Until ES5, the only way to declare a variable was to use the var keyword. ES6 introduced two more ways to declare variables, using the let and const keywords. Using these modern keywords gives us more predictability and fewer chances of introducing bugs in the code.</li>
+<li>Until ES5, the only way to declare a variable was the var keyword. ES6 introduced two more ways to declare variables, using the let and const keywords. Using these modern keywords gives us more predictability and fewer chances of introducing bugs in the code.</li>
 <li><strong>The var Keyword : </strong>A variable declared with var is function scoped. This means we will get a ReferenceError when we try to access the variable outside of the function.</li>
 <li class="example">
 <pre>
@@ -82,6 +82,7 @@ const publication = {
       <tr><td>Scope</td><td>function</td><td>block</td><td>block</td></tr>
       <tr><td>Reassigning a new value</td><td>Allowed</td><td>Allowed</td><td>Not Allowed</td></tr>
       <tr><td>When accessed before declaring</td><td>undefined</td><td>ReferenceError</td><td>ReferenceError</td></tr>
+      <tr><td>Redeclare</td><td>undefined</td><td>ReferenceError</td><td>ReferenceError</td></tr>
    </table>
 </li>
 

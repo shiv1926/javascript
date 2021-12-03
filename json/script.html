@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+var jObj = Object();
+var jObj1 = Object();
+jObj={"firstname":"shiv","firstname":"shiv","lastname":"yadav"};
+jObj1={"firstname":"shiv","firstname":"shiv","lastname":"yadav","address":{"city":"indore","street":"veena nagar"}};	
+jObj2={"firstname":"shiv","firstname":"shiv","lastname":"yadav","address":{"city":{"city1":"indore","city2":"indore1"},"street":"veena nagar"}};	
+
+jObj2={"employee1":[
+{"firstname":"shiv","lastname":"yadav"},
+{"firstname":"shilpa","lastname":"yadav"},
+],
+"employee2":[
+{"firstname":"subhi","lastname":"yadav"},
+{"firstname":"lokesh","lastname":"yadav"},
+]
+};
+
+obj1={"employee1":[
+{"firstname":"shivkumar","lastname":"yadav","address":[{"city":"indore","street":"veena nagar"}]}
+]
+}
+
+alert(obj1.employee1[0].address[0].city);
+document.getElementById('jsondatacon').innerHTML('shivkuar');
+</script>
+</head>
+<body>
+<div id="jsondatacon"></div>
+</body>
+</html>

@@ -1,15 +1,17 @@
 <?php include('header.php'); ?>
 <ul>
-    <li>There are two ways to wrap an string i.e. single quotes ('') and double quotes ("").</li>
-    <li>We use ( + ) opeator to concat two strings.</li>
-    <li>Using both the ways, it is difficult to
-        <ul>
-            <li>escape the quotes symbol from the string. For this we use escape charector.</li>
-            <li>write the expression (functions call, variables, object, array ) in the string.</li>
-            <li>write multiline strings.</li>
-            <li>format an string, i.e. adding space between words, or adding a new line.</li>
-        </ul>
-    </li>
+    <li></li>
+variable declaration
+variable value assignment
+declaration and assignment at the same time
+
+javascript follows lexical scoping i.e. a variable define outside of a function is automatically available inside a function.
+
+
+if we do not use any keyword (var,let or const) before variable it becomes a global variable.
+we should always define a variable before assigning.
+
+
 </ul>
 <?php 
 $links[] = 'https://www.computerhope.com/jargon/v/variable.htm';
