@@ -1,13 +1,4 @@
-<?php 
-function jsbasic($file='')
-{
-    if($_SERVER['HTTP_HOST']=='shiv-pc') {
-        return 'http://shiv-pc/all_tutorials/javascript/basic/'.$file;
-    } else {
-        return 'http://localhost/javascript/basic/'.$file;
-    }
-}
-?>
+<?php include('functions.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>

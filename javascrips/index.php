@@ -11,6 +11,14 @@
 		</ul>
 	</li>
 	<li>
+		<h4>Storage</h4>
+		<ul>
+			<li><a href="<?php echo jsbasic('spread-operator.php'); ?>">Local Storage</a></li>
+			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">Session Storage</a></li>
+			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">Cookies</a></li>
+		</ul>
+	</li>
+	<li>
 		<h4>Data Types</h4>
 		<ul>
 			<li><a href="<?php echo jsbasic('spread-operator.php'); ?>">Primitive Data Types</a></li>
