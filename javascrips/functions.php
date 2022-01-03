@@ -8,10 +8,10 @@ function jsbasic($file='')
     }
 }
 
-function refrences($links)
+function refrences($links, $heading='Refrences')
 {
     $return='<div>&nbsp;</div>';
-    $return.='<h4>Refrences</h4>';
+    $return.='<h4>'.$heading.'</h4>';
     foreach($links as $link)
     {
         $return.='<div>'.$link.'</div>';

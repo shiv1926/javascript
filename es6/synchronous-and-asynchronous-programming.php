@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <ul>
     <li>By default all operations in JavaScript are synchronous and execute from top to bottom.</li>
-    <li>In synchronous programming next task does not start untill first task is complete, while in asynchronous programming next task doesn't wait for response.</li>
+    <li>In synchronous programming next task does not start untill first task is complete, while in asynchronous programming next task doesn't wait for response of first task.</li>
     <li>Synchronous request blocks the client untill opeation is not get completed, so browser become unresponsive, javascript engine of browser is get blocked.</li>
     <li>
         <ul>
@@ -13,8 +13,7 @@
         </ul>
     </li>
     <li>
-        which functions comes uner asynchronous category.
-        setTimeOut
+        which functions comes uner asynchronous category : setTimeOut
     </li>
 </ul>
 <?php include('footer.php'); ?>

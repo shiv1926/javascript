@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arrow function</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+</body>
+<script>
+    /*
+function Car() {
+    this.speed = 0;
+
+    this.speedUp = function (speed) {
+        this.speed = speed;
+        setTimeout(function () {
+            console.log(this.speed); // undefined
+        }, 1000);
+    };
+
+    this.sampleText = function(stext) {
+        this.speed = stext;
+        console.log(this.speed);
+    }
+}
+
+let car = new Car();
+car.speedUp(50);
+*/
+
+function Car() {
+    this.speed = 0;
+
+    this.speedUp = function (speed) {
+        this.speed = speed;
+        let self = this;
+        setTimeout(function () {
+            console.log(self.speed);
+        }, 1000);
+
+    };
+}
+
+let car = new Car();
+car.speedUp(50);
+
+</script>
+</html>

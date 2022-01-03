@@ -5,7 +5,8 @@
 		<ul>
 			<li><a href="<?php echo es_url('how-javascript-works.php'); ?>">How javascript works</a></li>
 			<li><a href="<?php echo es_url('execution-context.php'); ?>">Execution Context</a></li>
-			<li><a href="<?php echo es_url('execution-context.php'); ?>">Execution Stack / Call Stack</a></li>
+			<li><a href="<?php echo es_url('call-stack.php'); ?>">Execution Stack / Call Stack</a></li>
+			<li><a href="<?php echo es_url('hoisting.php'); ?>">Hoisting</a></li>
 		</ul>
 	</li>
 	<li>
@@ -13,7 +14,6 @@
 		<ul>
 			<li><a href="<?php echo es_url('variable-introduction.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('variable-declaration.php'); ?>">Variables and their types</a></li>
-			<li><a href="<?php echo es_url('variable-comparison.php'); ?>">Variables types comparison</a></li>
 			<li><a href="<?php echo es_url('scope-variable.php'); ?>">Scope of Variables</a></li>
 		</ul>
 	</li>
@@ -39,10 +39,8 @@
 			<li><a href="<?php echo es_url('higher-order-functions.php'); ?>">Higher Order Functions</a></li>
 			<li><a href="<?php echo es_url('pure-functions.php'); ?>">Pure Functions</a></li>
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
-			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Fat Arrow Functions and their benefits</a></li>
-			<li><a href="<?php echo es_url('promises.php'); ?>">Map function</a></li>
-			<li><a href="<?php echo es_url('promises.php'); ?>">Closure Functions</a></li>
-			<li><a href="<?php echo es_url('generator-functions.php'); ?>">Generators Functions</a></li>
+			<li><a href="<?php echo es_url('map-function.php'); ?>">Map function</a></li>
+			<li><a href="<?php echo es_url('closure.php'); ?>">Closure Functions</a></li>
 			<li><a href="<?php echo es_url('generator-functions.php'); ?>">Generators Functions</a></li>
 		</ul>
 	<li>
@@ -67,19 +65,19 @@
 		</ul>
 	</li>
 	<li>
-		<h4>Modules</h4>
-		<ul>
-			<li><a href="<?php echo es_url('modules.php'); ?>">Introduction</a></li>
-			<li><a href="<?php echo es_url('export-modules.php'); ?>">Export Modules</a></li>
-			<li><a href="<?php echo es_url('import-modules.php'); ?>">Import Modules</a></li>
-		</ul>
-	</li>
-	<li>
 		<h4>Three dot Operators</h4>
 		<ul>
 			<li><a href="<?php echo es_url('three-dot-operator.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('rest-operator.php'); ?>">Rest Operator</a></li>
 			<li><a href="<?php echo es_url('spread-operator.php'); ?>">Spread Operator</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>Modules</h4>
+		<ul>
+			<li><a href="<?php echo es_url('modules.php'); ?>">Introduction</a></li>
+			<li><a href="<?php echo es_url('export-modules.php'); ?>">Export Modules</a></li>
+			<li><a href="<?php echo es_url('import-modules.php'); ?>">Import Modules</a></li>
 		</ul>
 	</li>
 	<li>
@@ -101,9 +99,10 @@
 		<ul>
 			<li><a href="<?php echo es_url('in-built-functions.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">String Methods / String Functions</a></li>
-			<li><a href="<?php echo es_url('arrsy-methods.php'); ?>">Array / Object Methods</a></li>
-			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Number Methods</a></li>
-			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Global Methods</a></li>
+			<li><a href="<?php echo es_url('array-methods.php'); ?>">Array Methods</a></li>
+			<li><a href="<?php echo es_url('objects-methods.php'); ?>">Object Methods</a></li>
+			<li><a href="<?php echo es_url('number-methods.php'); ?>">Number Methods</a></li>
+			<li><a href="<?php echo es_url('global-methods.php'); ?>">Global Methods</a></li>
 		</ul>
 	</li>
 	<li>
@@ -126,6 +125,7 @@
 		<ul>
 			<li><a href="<?php echo es_url('hoisting.php'); ?>">Hoisting</a></li>
 			<li><a href="<?php echo es_url('promises.php'); ?>">Execution Stack and Call Stack</a></li>
+			<li><a href="<?php echo es_url('prototype.php'); ?>">Prototype</a></li>
 		</ul>
 	</li>
 	<li>
@@ -137,8 +137,29 @@
 			<li><a href="<?php echo es_url('deep-shallow-copy.php'); ?>">setInterval</a></li>
 		</ul>
 	</li>
+	<li>
+		<h4>Cheatsheet</h4>
+		<ul>
+			<li><a href="<?php echo es_url('cheatsheet.php'); ?>">Cheatsheet</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>Timing Functions</h4>
+		<ul>
+			<li><a href="<?php echo es_url('settimeout.php'); ?>">setTimtout</a></li>
+			<li><a href="<?php echo es_url('setinterval.php'); ?>">setInterval</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>Mislenneous</h4>
+		<ul>
+			<li><a href="<?php echo es_url('jwt.php'); ?>">JWT</a></li>
+			<li><a href="<?php echo es_url('tips.php'); ?>">TIPS</a></li>
+		</ul>
+	</li>
 </ul>
 <?php 
+$links = array();
 $links[] = 'http://es6-features.org';
 $links[] = 'https://www.javascripttutorial.net/es6';
 $links[] = 'https://www.geeksforgeeks.org';

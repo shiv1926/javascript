@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<script>
+function test1()
+{
+	let count = 0;
+	function test2() {
+		count++;
+		console.log(count);
+	}
+	return test2;
+}
+
+let check = test1();
+check();
+check();
+check();
+check();
+</script>
+<explaination>
+	<div>output of above program will be : </div>
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>In the above code, we notice that every time we call check function, it shows the update value.</div>
+	<div>Now we can say that closure function work as storage.</div>
+</explaination>
+</body>
+</html>

@@ -42,9 +42,36 @@
 			<li><a href="<?php echo jsbasic('rest-operator.php'); ?>">User defined data types</a></li>
 		</ul>
 	</li>
-
-<div>typeof()</div>
-<div>always declare variable with variable type ( var, let and const )</div>
-<div>we should clear the memory after use.</div>
+	<li>
+		<h4>Mislenneous</h4>
+		<ul>
+			<li><a href="<?php echo jsbasic('dom.php'); ?>">DOM</a></li>
+			<li><a href="<?php echo jsbasic('json.php'); ?>">JSON</a></li>
+			<li><a href="<?php echo jsbasic('tips.php'); ?>">TIPS</a></li>
+			<li><a href="<?php echo jsbasic('script-examples.php'); ?>">Script Examples</a></li>
+			<li><a href="<?php echo jsbasic('cheatsheet.php'); ?>">Cheatsheet</a></li>
+		</ul>
+	</li>
 </ul>
-<?php include('footer.php'); ?>
+<?php 
+$links = array();
+$links[] = 'http://es6-features.org';
+$links[] = 'https://www.javascripttutorial.net/es6';
+$links[] = 'https://www.geeksforgeeks.org';
+$links[] = 'https://javascript.info : This site has a good index of tutorial';
+echo refrences($links);
+
+$links = array();
+$links[] = 'Hitesh Chodhary';
+$links[] = 'Thapa Technical';
+$links[] = 'Yahoo Baba';
+$links[] = 'Geekyshows';
+$links[] = 'Code with harry';
+echo refrences($links, 'Youtube Channel');
+
+$links = array();
+$links[] = 'Codewars';
+$links[] = 'Scotch.io';
+echo refrences($links, 'Code Practice');
+include('footer.php'); 
+?>

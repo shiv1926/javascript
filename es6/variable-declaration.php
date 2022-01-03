@@ -80,9 +80,9 @@ const publication = {
    <table border="1" cellpadding="5" cellspacing="0">
       <tr><td></td><td>VAR</td><td>LET</td><td>CONST</td></tr>
       <tr><td>Scope</td><td>function</td><td>block</td><td>block</td></tr>
+      <tr><td>Redeclare</td><td>undefined</td><td>ReferenceError</td><td>ReferenceError</td></tr>
       <tr><td>Reassigning a new value</td><td>Allowed</td><td>Allowed</td><td>Not Allowed</td></tr>
       <tr><td>When accessed before declaring</td><td>undefined</td><td>ReferenceError</td><td>ReferenceError</td></tr>
-      <tr><td>Redeclare</td><td>undefined</td><td>ReferenceError</td><td>ReferenceError</td></tr>
    </table>
 </li>
 

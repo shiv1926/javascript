@@ -13,8 +13,8 @@
         <div class="example_block">
             Destructuring target = Destructuring source;
         </div>
-        <div><strong>Destructuring source:</strong> the right-hand side of a destructuring assignment, the data to be destructured.</div>
         <div><strong>Destructuring target:</strong> the left-hand side of a destructuring assignment, either array [var1, var2, var3] or object {var1, var2, var3}.</div>
+        <div><strong>Destructuring source:</strong> the right-hand side of a destructuring assignment, the data to be destructured.</div>
     </li>
     <li>
         Destructuring Assignment Works with any iterable items on the right-side, not only array or object.
@@ -22,7 +22,7 @@
             <div>let [x,y,z] = "abc"; // ["a", "b", "c"]</div>
             <div>let [one, two, three] = new Set([1, 2, 3]);</div>
         </div>
-        <p>That works, because internally a destructuring assignment works by iterating over the right value. it is likea syntax sugar for calling for..of over the value to the right of = and assigning the values.</p>
+        <p>That works, because internally a destructuring assignment works by iterating over the right value. it is like a syntax sugar for calling for..of over the value to the right of = and assigning the values.</p>
     </li>
     <h4>Use Cases</h4>
     <li>Whenever a function or an API return a list of array or json data, and we are interested in only some data we should use destructuing.</li>
