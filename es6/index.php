@@ -33,10 +33,10 @@
 		<h4>Functions</h4>
 		<ul>
 			<li><a href="<?php echo es_url('what-is-functional-programming.php'); ?>">What is function programming</a></li>
-			<li><a href="<?php echo es_url('what-is-function.php'); ?>">What is functions</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Functions and their types</a></li>
 			<li><a href="<?php echo es_url('default-parameters.php'); ?>">Default Parameters</a></li>
 			<li><a href="<?php echo es_url('higher-order-functions.php'); ?>">Higher Order Functions</a></li>
+			<li><a href="<?php echo es_url('immediate-invoked-function-expression.php'); ?>">Immediate invoked Functions</a></li>
 			<li><a href="<?php echo es_url('pure-functions.php'); ?>">Pure Functions</a></li>
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
 			<li><a href="<?php echo es_url('map-function.php'); ?>">Map function</a></li>
@@ -98,7 +98,7 @@
 		<h4>In-built Functions</h4>
 		<ul>
 			<li><a href="<?php echo es_url('in-built-functions.php'); ?>">Introduction</a></li>
-			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">String Methods / String Functions</a></li>
+			<li><a href="<?php echo es_url('string.php'); ?>">String Methods / String Functions</a></li>
 			<li><a href="<?php echo es_url('array-methods.php'); ?>">Array Methods</a></li>
 			<li><a href="<?php echo es_url('objects-methods.php'); ?>">Object Methods</a></li>
 			<li><a href="<?php echo es_url('number-methods.php'); ?>">Number Methods</a></li>
@@ -155,6 +155,14 @@
 		<ul>
 			<li><a href="<?php echo es_url('jwt.php'); ?>">JWT</a></li>
 			<li><a href="<?php echo es_url('tips.php'); ?>">TIPS</a></li>
+			<li><a href="<?php echo es_url('web-workers.php'); ?>">Web Workers</a></li>
+			<li><a href="<?php echo es_url('throw-new-error.php'); ?>">Throw new error</a></li>
+		</ul>
+	</li>
+	<li>
+		<h4>DOM</h4>
+		<ul>
+			<li><a href="<?php echo es_url('dom.php'); ?>">DOM</a></li>
 		</ul>
 	</li>
 </ul>
@@ -164,6 +172,7 @@ $links[] = 'http://es6-features.org';
 $links[] = 'https://www.javascripttutorial.net/es6';
 $links[] = 'https://www.geeksforgeeks.org';
 $links[] = 'https://javascript.info : This site has a good index of tutorial';
+$links[] = 'https://developer.mozilla.org/en-US/docs/Web/JavaScript';
 echo refrences($links);
 include('footer.php'); 
 ?>

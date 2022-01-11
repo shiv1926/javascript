@@ -4,7 +4,10 @@
     <li>when we add "async" word before function it means this function must have to return a promise, not the value.</li>
     <li>Async/Await doesn't help in promise production, it help us with promise cunsumption.</li>
 </ul>
-<?php include('footer.php'); ?>
-
-https://davidwalsh.name/async-await
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
+<?php 
+$links = array();
+$links[] = 'https://davidwalsh.name/async-await';
+$links[] = 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await';
+echo refrences($links);
+include('footer.php'); 
+?>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <script>
+        const arr1 = [10,20,30,40,50,60];
+        let filterval = arr1.filter(function(cval){
+            return cval > 20;
+        });
+        console.log(filterval);
+
+        function isGreater(element, index, array) { 
+           return (element >= 10); 
+        }
+        let testElemets = [12, 5, 8, 130, 44].filter(isGreater); 
+        console.log("Test Value : " + testElemets );
+
+        const obj1 = [
+            {'name' : 'shivkumar yadav', 'age' : 39},
+            {'name' : 'shilpa yadav', 'age' : 35},
+            {'name' : 'samriddhi', 'age' : 9},
+            {'name' : 'gopal yadav', 'age' : 37},
+            {'name' : 'lokesh yadav', 'age' : 35},
+        ]
+        let filterobj = obj1.filter(function(cval){
+            return cval.age > 35
+        });
+        console.log(filterobj);
+    </script>
+</body>
+</html>

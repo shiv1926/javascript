@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <ul>
-    <li>functions are first class citizens</li>
-    <li>in javascript we can assign a function to a variable.</li>
+    <li>functions are first class citizens.</li>
+    <li>in javascript we can assign a function to a variable, passed as argument to another function or return from another function.</li>
     <li>A function is execute when it is followed by ().</li>
     <li>any function that is passed to another function as an argument, is known as callback funtions.</li>
     <li>Types : </li>
@@ -17,4 +17,8 @@
     <li>Higher order functions</li>
     <li>Callback functions</li>
 </ul>
+
+functional inheritance
+
+
 <?php include('footer.php'); ?>

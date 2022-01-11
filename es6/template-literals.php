@@ -19,7 +19,7 @@
     <li>ES6 provide a powerful feature i.e. placeholder</li>
     <li class="example">${variable_name}</li>
     <li class="example_table">
-    <?php echo example_formatted('examples/template-literals.html'); ?>
+    <?php echo example_formatted('examples/template-literals/template-literals.html')['program']; ?>
     </li>
 </ul>
 
