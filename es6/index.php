@@ -153,6 +153,7 @@
 	<li>
 		<h4>Mislenneous</h4>
 		<ul>
+			<li><a href="<?php echo es_url('glossary.php'); ?>">Glossary</a></li>
 			<li><a href="<?php echo es_url('jwt.php'); ?>">JWT</a></li>
 			<li><a href="<?php echo es_url('tips.php'); ?>">TIPS</a></li>
 			<li><a href="<?php echo es_url('web-workers.php'); ?>">Web Workers</a></li>
