@@ -70,17 +70,18 @@ function example_formatted($ex)
     return $return;
 }
 
-function example_with_output($example)
+function example_with_output($ex)
 {
-    $example = example_formatted($example);
+    $example = example_formatted($ex);
     $return='';
     $return.='<div class="example_output">';
     $return.='<div class="ex_progam">'.$example['program'].'</div>';
+    $return.='<div class="ex_expln">';
+    $return.='<div class="line1">For output <a href="'.es_url($ex).'" target="_blank">Click here</a></div>';
     if($example['explaination']!='') {
-        $return.='<div class="ex_expln">'.$example['explaination'].'</div>';
-    } else {
-        $return.='<div class="ex_expln">For looking output save the script as HTML file and run in browser</div>';
+        $return.='<div class="line2">'.$example['explaination'].'</div>';
     }
+    $return.='</div>';
     $return.='</div>';
     return $return;
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arrow function</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+</body>
+<script>
+// Plain function:
+function Hi({ name }) {
+  return <div>Hello {name}!</div>;
+}
+// A constant holding an anonymous function:
+const Hi = function({ name }) {
+  return <div>Hello {name}!</div>;
+}
+// Removing the "function" keyword and adding the
+// arrow after the parameter list:
+const Hi = ({ name }) => {
+  return <div>Hello {name}!</div>;
+}
+// Optional step 3: Removing the braces, which makes the
+// "return" implicit so we can remove that too. Leaving the parens
+// in for readability:
+const Hi = ({ name }) => (
+  <div>Hello {name}!</div>
+)
+// Optional step 4: If the component is really short, you can put
+// it all on one line:
+const Hi = ({ name }) => <div>Hello {name}!</div>;
+
+</script>
+</html>

@@ -47,4 +47,4 @@ code ul li:first-child, code ul li:last-child { padding: 0 0 0 0; }
 .example_output .ex_progam { width: 50%; padding: 20px; border-right: 1px solid #000; }
 .example_output .ex_expln { width: 50%; padding: 20px; }
 
-pre { margin: 0; padding: 0; white-space: break-spaces; }
+pre { margin: 0; padding: 0; white-space: break-spaces; font-size: 14px; }

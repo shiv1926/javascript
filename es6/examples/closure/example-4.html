@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<script>
+var calc = (function () {
+    var i = 2;
+
+    return {
+        get: function () {
+            return i;
+        },
+        set: function (val) {
+            i = val;
+        },
+        add: function (item) {
+            return i + item;
+        },
+        multiply: function (item) {
+            return i * item;
+        }
+    };
+})();
+
+console.log(calc.get());
+console.log(calc.add(2));
+console.log(calc.multiply(5));
+calc.set(5);
+console.log(calc.get());
+console.log(calc.add(2));
+console.log(calc.multiply(5));
+</script>
+</body>
+</html>

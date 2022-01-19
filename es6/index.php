@@ -40,7 +40,9 @@
 			<li><a href="<?php echo es_url('pure-functions.php'); ?>">Pure Functions</a></li>
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
 			<li><a href="<?php echo es_url('map-function.php'); ?>">Map function</a></li>
+			<li><a href="<?php echo es_url('lexical-scope.php'); ?>">Lexical Scope</a></li>
 			<li><a href="<?php echo es_url('closure.php'); ?>">Closure Functions</a></li>
+			<li><a href="<?php echo es_url('lexical-vs-closure.php'); ?>">Lexical Vs Closure</a></li>
 			<li><a href="<?php echo es_url('generator-functions.php'); ?>">Generators Functions</a></li>
 		</ul>
 	<li>
@@ -172,8 +174,10 @@ $links = array();
 $links[] = 'http://es6-features.org';
 $links[] = 'https://www.javascripttutorial.net/es6';
 $links[] = 'https://www.geeksforgeeks.org';
+$links[] = 'https://www.tutorialspoint.com/es6/index.htm';
 $links[] = 'https://javascript.info : This site has a good index of tutorial';
 $links[] = 'https://developer.mozilla.org/en-US/docs/Web/JavaScript';
+$links[] = 'https://www.codeproject.com/Articles/1110916/JavaScript-IIFE-Design-Pattern : analyze this website';
 echo refrences($links);
 include('footer.php'); 
 ?>

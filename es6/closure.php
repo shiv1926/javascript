@@ -6,9 +6,11 @@
     <li>Closure is useful in hiding the implementation details. in other words it is useful to create private variables and functions. It is like abstraction from OOPS.</li>
     <li><?php echo example_with_output('examples/closure/example-1.html'); ?></li>
     <li><?php echo example_with_output('examples/closure/example-2.html'); ?></li>
+    <li><?php echo example_with_output('examples/closure/example-4.html'); ?></li>
 </ul>
 <?php 
 $links[] = 'https://www.javascripttutorial.net/javascript-closure/';
+$links[] = 'https://www.freecodecamp.org/news/javascript-closure-lexical-scope/';
 echo refrences($links);
 include('footer.php'); 
 ?>

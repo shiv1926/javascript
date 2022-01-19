@@ -1,10 +1,9 @@
 <?php include('header.php'); ?>
 <ul>
     <li>Promises are used to avoid callback hell.</li>
-    <li>Promises are asychronous.</li>
+    <li>A promise is similar to real life promise, when time comes it will resolve other wise it get rejects, initial a promise is in pending state.</li>
     <li>A promise is an object that track wheather certain task is get completed or not.</li>
-    <li>A promise is a returned object to which we attach our callbacks, instead of passing callback into a function.</li>
-    <li>A promise is an object that represent the completion or failure of an asynchronous operation.</li>
+    <li>A promise is a returned object to which we attach our callbacks, while in of passing callback into a function.</li>
     <li>A promise is used to handle the result of an asynchronous operation. JavaScript is designed to not wait for an asynchrnous block of code to completely execute before other synchronous parts of the code can run. For instance, when making API requests to servers, we have no idea if these servers are offline or online, or how long it takes to process the server request. With Promises, we can defer execution of a code block until an async request is completed. This way, other operations can keep running without interruption.</li>
     <li>
         <p>Promises have three states:</p>
@@ -62,6 +61,10 @@
     <li>
         <strong>Chaining Promises:</strong>
         <p>Sometimes we may need to execute two or more asynchronous operations based on the result of preceding promises. In this case, promises are chained.</p>
+    </li>
+    <li>
+        <h4>How to consume promises : </h4>
+        <p></p>
     </li>
 </ul>
 <?php include('footer.php'); ?>

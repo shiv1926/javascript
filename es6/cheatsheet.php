@@ -16,5 +16,9 @@
         <td>Hoisting</td>
         <td>Hoisting means call something before defining. During the creation phase, the JavaScript engine moves the variable and function declarations to the top of your code. This feature is known as hoisting in JavaScript.</td>
     </tr>
+    <tr>
+        <td>IIFE</td>
+        <td></td>
+    </tr>
 </table>
 <?php include('footer.php'); ?>

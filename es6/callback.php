@@ -5,14 +5,8 @@
     <li>Callback make sure that certain code will not execute untill other code does not finish their execution.</li>
     <li>Callback is not a special thing, it is a way of using functions.</li>
     <li>When a function simply accepts another function as an argument, this contained function is known as a callback function. Using callback functions is a core functional programming concept, and you can find them in most JavaScript code; either in simple functions like setInterval, event listening or when making API calls.</li>
-</ul>
-<ul>
-    <li>
-        <strong>Why Callback</strong>
-        <p>Javascript is an event driven programming language, this means that instead of waiting of response of an event, it keep continue listening other events.</p>
-        <p>callback functions is a core functional programming concept, and you can find them in most JavaScript code; either in simple functions like setInterval, event listening or when making API calls.</p>
-        <p>Callback functions can be named or anonymous functions.</p>
-    </li>
+    <li>Javascript is an event driven programming language, this means that instead of waiting of response of an event, it keep continue listening other events.</li>
+    <li>Callback functions can be named or anonymous functions.</li>
 </ul>
 
 <strong>Example</strong>
