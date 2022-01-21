@@ -36,6 +36,7 @@
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Functions and their types</a></li>
 			<li><a href="<?php echo es_url('default-parameters.php'); ?>">Default Parameters</a></li>
 			<li><a href="<?php echo es_url('higher-order-functions.php'); ?>">Higher Order Functions</a></li>
+			<li><a href="<?php echo es_url('anonymouns-functions.php'); ?>">Anonymouns Functions</a></li>
 			<li><a href="<?php echo es_url('immediate-invoked-function-expression.php'); ?>">Immediate invoked Functions</a></li>
 			<li><a href="<?php echo es_url('pure-functions.php'); ?>">Pure Functions</a></li>
 			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
