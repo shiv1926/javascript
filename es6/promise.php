@@ -40,20 +40,6 @@
                             <li>})</li>
                         </ul>
                     </td>
-                    <td width="50%" valign="top">
-                        <p>The Promise object is created using the new keyword and contains the promise; this is an executor function which has a resolve and a reject callback.</p>
-                        <p>promise produce</p>
-                        <p>promise consume</p>
-                        <ul>
-                            <li>
-                                Every promise object has two methods
-                                <ul>
-                                    <li>.then</li>
-                                    <li>.catch</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </td>
                 </tr>
             </table>
         </code>

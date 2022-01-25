@@ -19,17 +19,22 @@
         }).catch( (error_messaage) => {
             console.log(error_messaage);
         });
-
-
-        const get_roll_no_list = () => {
-            return new Promise( (resolve, reject) => {
-                let roll_no = [1,2,3,4,5];
-                resolve(roll_no);
-                reject('Error in roll numbers.');
-            });
-        }
-
-        get_roll_no_list();
     </script>
+
+
+                    <td width="50%" valign="top">
+                        <p>The Promise object is created using the new keyword and contains the promise; this is an executor function which has a resolve and a reject callback.</p>
+                        <p>promise produce</p>
+                        <p>promise consume</p>
+                        <ul>
+                            <li>
+                                Every promise object has two methods
+                                <ul>
+                                    <li>.then</li>
+                                    <li>.catch</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
 </body>
 </html>

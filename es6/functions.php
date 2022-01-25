@@ -14,7 +14,7 @@ function refrences($links)
     $return.='<h4>Refrences</h4>';
     foreach($links as $link)
     {
-        $return.='<div>'.$link.'</div>';
+        $return.='<div><a href="'.$link.'" target="_blank">'.$link.'</a></div>';
     }
     return $return;
 }

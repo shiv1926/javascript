@@ -33,6 +33,7 @@
 		<h4>Functions</h4>
 		<ul>
 			<li><a href="<?php echo es_url('what-is-functional-programming.php'); ?>">What is function programming</a></li>
+			<li><a href="<?php echo es_url('declarative-vs-imperative-programming.php'); ?>">Declarative vs imperative programming</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Functions and their types</a></li>
 			<li><a href="<?php echo es_url('default-parameters.php'); ?>">Default Parameters</a></li>
 			<li><a href="<?php echo es_url('higher-order-functions.php'); ?>">Higher Order Functions</a></li>
@@ -136,8 +137,6 @@
 		<ul>
 			<li><a href="<?php echo es_url('best-practice.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('deep-shallow-copy.php'); ?>">Deep copy vs shallow copy</a></li>
-			<li><a href="<?php echo es_url('deep-shallow-copy.php'); ?>">setTimeOut</a></li>
-			<li><a href="<?php echo es_url('deep-shallow-copy.php'); ?>">setInterval</a></li>
 		</ul>
 	</li>
 	<li>
@@ -149,6 +148,7 @@
 	<li>
 		<h4>Timing Functions</h4>
 		<ul>
+			<li><a href="<?php echo es_url('schedule-task.php'); ?>">Schedule task</a></li>
 			<li><a href="<?php echo es_url('settimeout.php'); ?>">setTimtout</a></li>
 			<li><a href="<?php echo es_url('setinterval.php'); ?>">setInterval</a></li>
 		</ul>
