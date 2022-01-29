@@ -4,7 +4,6 @@
     <li>arguments</li>
     <li>parameter vs argumens</li>
     <li>A function that recieved another function an argument or return a function called higher order function.</li>
-    <li>A higher order function is a function that accepts function as a parameter and / or return a function.</li>
     <li>
         Highter order functions example : 
         <ul>
@@ -19,6 +18,7 @@
 <?php 
 $links[] = 'https://www.codecademy.com/learn/game-dev-learn-javascript-higher-order-functions-and-iterators/modules/game-dev-learn-javascript-iterators/cheatsheet';
 $links[] = 'https://www.geeksforgeeks.org/difference-between-first-class-and-higher-order-functions-in-javascript';
+$links[] = 'https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99';
 echo refrences($links);
 include('footer.php'); 
 ?>

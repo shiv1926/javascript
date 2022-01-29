@@ -15,6 +15,7 @@
 			<li><a href="<?php echo es_url('variable-introduction.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('variable-declaration.php'); ?>">Variables and their types</a></li>
 			<li><a href="<?php echo es_url('scope-variable.php'); ?>">Scope of Variables</a></li>
+			<li><a href="<?php echo es_url('global-vs-local-variable.php'); ?>">Global vs local Variables</a></li>
 		</ul>
 	</li>
 	<li>
@@ -36,12 +37,11 @@
 			<li><a href="<?php echo es_url('declarative-vs-imperative-programming.php'); ?>">Declarative vs imperative programming</a></li>
 			<li><a href="<?php echo es_url('functions-and-types.php'); ?>">Functions and their types</a></li>
 			<li><a href="<?php echo es_url('default-parameters.php'); ?>">Default Parameters</a></li>
+			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
 			<li><a href="<?php echo es_url('higher-order-functions.php'); ?>">Higher Order Functions</a></li>
 			<li><a href="<?php echo es_url('anonymouns-functions.php'); ?>">Anonymouns Functions</a></li>
 			<li><a href="<?php echo es_url('immediate-invoked-function-expression.php'); ?>">Immediate invoked Functions</a></li>
 			<li><a href="<?php echo es_url('pure-functions.php'); ?>">Pure Functions</a></li>
-			<li><a href="<?php echo es_url('fat-arrow.php'); ?>">Arrow Functions</a></li>
-			<li><a href="<?php echo es_url('map-function.php'); ?>">Map function</a></li>
 			<li><a href="<?php echo es_url('lexical-scope.php'); ?>">Lexical Scope</a></li>
 			<li><a href="<?php echo es_url('closure.php'); ?>">Closure Functions</a></li>
 			<li><a href="<?php echo es_url('lexical-vs-closure.php'); ?>">Lexical Vs Closure</a></li>

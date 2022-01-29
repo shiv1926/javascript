@@ -8,25 +8,27 @@
 </head>
 <body>
 <script>
-function test1()
-{
-	let count = 0;
-	function test2()
-	{
-		count = 2;
-	}
-	function test3()
-	{
-		count = 3;
-	}
-	function test4()
-	{
-		count = 5;
-	}
-	return count;
-}
-console.log(test4());
-console.log(test1());
+function add(x) {
+    return function(y) {
+      return x + y;
+    };
+  }
+  
+  var addFive = add(5);
+  var addTen = add(10);
+  
+  console.log(addFive(10));  // 15
+  console.log(addTen(10)); // 20
 </script>
+<explaination>
+    <div>This is the closure function example with IIFE.</div>
+    <div>output of above program will be : </div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>In the above code, we notice that every time we call check function, it shows the update value.</div>
+    <div>Now we can say that closure function work as storage.</div>
+</explaination>
 </body>
 </html>

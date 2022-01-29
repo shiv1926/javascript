@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Var, Let and Const</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+function scope(){
+if(true){
+    var scope1 =`I have function Scope`
+    let scope2 = `I have block scope`
+    const scope3 =`I also have block scope`
+}
+console.log(scope1)
+console.log(scope2)
+console.log(scope3)
+
+}
+scope()
+
+//I have function Scope
+
+//ReferenceError: scope2 is not defined
+
+//ReferenceError: scope3 is not defined
+</script>
