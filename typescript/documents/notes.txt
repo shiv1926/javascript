@@ -1,17 +1,5 @@
-https://www.javascripttutorial.net/ : very good tutorial
+https://www.typescripttutorial.net/
+https://www.tutorialspoint.com/typescript/index.htm
 
 operator and operands
 Infinity, Nan, all reserved keyword like this.
-anonymous function
-event loop, async and await, closure, prototype, hoisting variable and functions, fetch api	
-
-in javascript everything is an object, and each object have their own properties and functionaliy,
-an object is a instance of a class. we can create as many as objects of a class and all objects share all the properties and methods,
-
-we should not use any variable without declaring it. because of "Use Strict" mode on.
-
-======================================================================================================================================================
-
-https://www.droptica.com/blog/combining-string-literals-and-variables-php/
-es6, react, create project using react, amazon web services, task runner grunt/gulp,
-react project list : git (deploy from git to live server), sass, bootstrap, grid/flex, css animation, wordpress, website speed up, database, react native, oops, laravel, seo, english, node js, 

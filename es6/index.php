@@ -82,6 +82,7 @@
 			<li><a href="<?php echo es_url('modules.php'); ?>">Introduction</a></li>
 			<li><a href="<?php echo es_url('export-modules.php'); ?>">Export Modules</a></li>
 			<li><a href="<?php echo es_url('import-modules.php'); ?>">Import Modules</a></li>
+			<li><a href="<?php echo es_url('modules-as-script.php'); ?>">Modules as script</a></li>
 		</ul>
 	</li>
 	<li>
