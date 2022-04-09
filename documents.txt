@@ -21,3 +21,5 @@ destructuring
 
 https://learncodeonline.in/
 hitesh chodhary : youtube, he is a good tutor, and 
+
+https://www.codecademy.com/resources/cheatsheets/language/javascript

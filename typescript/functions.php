@@ -1,10 +1,10 @@
 <?php 
-function es_url($file='')
+function ts_url($file='')
 {
     if($_SERVER['HTTP_HOST']=='shiv-pc') {
-        return 'http://shiv-pc/all_tutorials/javascript/es6/'.$file;
+        return 'http://shiv-pc/all_tutorials/javascript/typescript/'.$file;
     } else {
-        return 'http://localhost/all_tutorial/javascript/es6/'.$file;
+        return 'http://localhost/all_tutorial/javascript/typescript/'.$file;
     }
 }
 
@@ -50,6 +50,4 @@ function example_formatted($ex)
     $return.="</pre>";
     return $return;
 }
-
-
 ?>
